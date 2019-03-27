@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemas>
+    <schema>
+        <table name="TESTE">
+            <pk name="INTEG_2" column="ID"/>
+            <column name="ID" type="integer" not-null="true" size="10"/>
+            <column name="NOME" type="varchar" size="30"/>
+            <index name="&quot;RDB$PRIMARY1&quot;" unique="true" column="ID"/>
+        </table>
+    </schema>
+</schemas>

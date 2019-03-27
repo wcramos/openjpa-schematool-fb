@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    version="2.0">
+   <persistence-unit name="my-persistence-unit" transaction-type="RESOURCE_LOCAL">
+      <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+      <properties>
+         <!-- database connection -->
+         <property name="javax.persistence.jdbc.driver" value="org.firebirdsql.jdbc.FBDriver" />
+         <property name="javax.persistence.jdbc.url" value="jdbc:firebirdsql:localhost/3050:/firebird/data/test1.fdb" />
+         <property name="javax.persistence.jdbc.user" value="wagner" />
+         <property name="javax.persistence.jdbc.password" value="jdbc" />
+      </properties>
+   </persistence-unit>
+</persistence>

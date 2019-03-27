@@ -1,0 +1,2 @@
+java -cp .:openjpa-all-3.0.0.jar:jaybird-full-3.0.5.jar:antlr-4.7.2-complete.jar org.apache.openjpa.jdbc.schema.SchemaTool -a reflect -f test1.xml
+
